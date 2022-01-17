@@ -1,0 +1,66 @@
+{
+  "id" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/manifest.json",
+  "label" : {
+    "en" : [ "All images loaded in andrewlongworth/IIIF-course-example-1 project" ]
+  },
+  "type" : "Manifest",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "width" : 1944,
+    "id" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/IMG_20200520_120331815/canvas/",
+    "label" : {
+      "none" : [ "IMG_20200520_120331815" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/IMG_20200520_120331815/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/IMG_20200520_120331815/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 61,
+              "height" : 81
+            }, {
+              "width" : 122,
+              "height" : 162
+            }, {
+              "width" : 243,
+              "height" : 324
+            }, {
+              "width" : 486,
+              "height" : 648
+            }, {
+              "width" : 972,
+              "height" : 1296
+            }, {
+              "width" : 1944,
+              "height" : 2592
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 1944,
+            "@id" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/IMG_20200520_120331815",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2592
+          } ],
+          "format" : "image/jpeg",
+          "width" : 1944,
+          "id" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/IMG_20200520_120331815/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2592
+        },
+        "target" : "https://andrewlongworth.github.io/IIIF-course-example-1/images/IMG_20200520_120331815/canvas/"
+      } ]
+    } ],
+    "height" : 2592
+  } ]
+}
