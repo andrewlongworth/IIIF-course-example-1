@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://andrewlongworth.github.io/IIIF-course-example-1/manifests/manifest3.json",
     "label" : "IIIF_course_manifest_1"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://andrewlongworth.github.io/IIIF-course-example-1/manifests/manifest2.json",
+    "label" : "IIIF_course_manifest_1"
   } ]
 }
